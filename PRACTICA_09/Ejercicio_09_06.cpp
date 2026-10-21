@@ -9,9 +9,6 @@
 
 using namespace std;
 
-const int SEMANAS = 4;
-const int DIAS = 7;
-
 void LlenarTemperaturas(int T[][DIAS]);
 void MostrarTemperaturas(int T[][DIAS]);
 void MayorTemperatura(int T[][DIAS], int &mayor, int &semana, int &dia);
@@ -21,7 +18,9 @@ int ContarMayoresA(int T[][DIAS], int limite);
 int main()
 {
     srand(time(0));
-
+    
+    int SEMANAS = 4;
+    int DIAS = 7;
     int T[SEMANAS][DIAS];
 
     LlenarTemperaturas(T);

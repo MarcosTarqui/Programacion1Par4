@@ -16,10 +16,8 @@ int main()
 {
     srand(time(0));
 
-    string Nombres[10] = {"Ana", "Luis", "Maria", "Carlos", "Sofia",
-                          "Pedro", "Lucia", "Jorge", "Elena", "Diego"};
-    string Apellidos[10] = {"Perez", "Gomez", "Lopez", "Rojas", "Mamani",
-                            "Quispe", "Flores", "Vargas", "Torrez", "Rios"};
+    string Nombres[10] = {"Ana", "Luis", "Maria", "Carlos", "Sofia","Pedro", "Lucia", "Jorge", "Elena", "Diego"};
+    string Apellidos[10] = {"Perez", "Gomez", "Lopez", "Rojas", "Mamani","Quispe", "Flores", "Vargas", "Torrez", "Rios"};
     int N;
 
     do

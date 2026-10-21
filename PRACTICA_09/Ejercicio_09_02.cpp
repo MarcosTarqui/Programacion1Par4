@@ -33,7 +33,7 @@ int main()
     cin >> A;
     do
     {
-        cout << "Ingrese el valor 100imo B (B >= A): ";
+        cout << "Ingrese el valor maximo B (B >= A): ";
         cin >> B;
     } while (B < A);
 

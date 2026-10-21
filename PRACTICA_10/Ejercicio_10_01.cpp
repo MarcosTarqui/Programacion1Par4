@@ -38,7 +38,6 @@ void GenerarNombresCompletos(string Nombres[], string Apellidos[], int N)
         int posNombre = rand() % 10;
         int posApellido = rand() % 10;
 
-        cout << i + 1 << ". " << Nombres[posNombre] << " "
-             << Apellidos[posApellido] << endl;
+        cout << i + 1 << ". " << Nombres[posNombre] << " "<< Apellidos[posApellido] << endl;
     }
 }

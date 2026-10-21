@@ -30,8 +30,7 @@ int main()
 
     int mayor, semana, dia;
     MayorTemperatura(T, mayor, semana, dia);
-    cout << "\nTemperatura mas alta del mes: " << mayor << " C (Semana "
-         << semana + 1 << ", Dia " << dia + 1 << ")" << endl;
+    cout << "\nTemperatura mas alta del mes: " << mayor << " C (Semana " << semana + 1 << ", Dia " << dia + 1 << ")" << endl;
 
     cout << "\nPromedio de cada semana:" << endl;
     PromedioSemanal(T);

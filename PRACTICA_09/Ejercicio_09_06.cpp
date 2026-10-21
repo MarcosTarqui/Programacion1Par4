@@ -47,7 +47,7 @@ void LlenarTemperaturas(int T[][DIAS])
     {
         for (int j = 0; j < DIAS; j++)
         {
-            T[i][j] = rand() % 31 + 5;   // 5 a 35
+            T[i][j] = rand() % (35-5+1)+5;   
         }
     }
 }
